@@ -12509,7 +12509,7 @@ blockquote cite {
   color: var(--tg-color-gray-6);
 }
 .copyright__text-two {
-  text-align: right;
+  text-align: center;
 }
 @media (max-width: 767.98px) {
   .copyright__text-two {
