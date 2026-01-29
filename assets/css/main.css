@@ -11989,7 +11989,6 @@ blockquote cite {
 @media (max-width: 767.98px) {
   .footer__bg {
     padding: 170px 0 0;
-    padding-top: 0;
   }
 }
 .footer__bg-two {
@@ -12519,3 +12518,37 @@ blockquote cite {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* Reduce footer top padding */
+.footer__bg {
+  padding: 50px 0 0; /* was 195px */
+}
+
+.footer__bg-two {
+  padding: 50px 0 0; /* was 120px */
+}
+
+.footer__top {
+  padding: 40px 0 40px; /* was 65px 0 80px */
+}
+
+.footer__top-two {
+  padding: 60px 0 40px; /* was 140px 0 55px */
+}
+
+.footer__top-three {
+  padding: 60px 0 60px; /* was 140px 0 100px */
+}
+
+.footer__cta-wrap {
+  padding-bottom: 40px; /* was 90px */
+}
+
+.footer__cta-wrap-two {
+  margin-bottom: 40px; /* keep same for smaller footer */
+  padding-bottom: 40px; 
+}
+
+.footer__bottom, .footer__bottom-two {
+  padding: 15px 0; /* was 27px/20px */
+}
