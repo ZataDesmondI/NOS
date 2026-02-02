@@ -12552,3 +12552,25 @@ blockquote cite {
 .footer__bottom, .footer__bottom-two {
   padding: 15px 0; /* was 27px/20px */
 }
+
+
+.shop__thumb {
+    width: 100%;
+    height: 260px;          /* choose one height for all images */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop__thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;      /* keeps proportions, fills box */
+}
+
+@media (max-width: 768px) {
+    .shop__thumb {
+        height: 200px;
+    }
+}
